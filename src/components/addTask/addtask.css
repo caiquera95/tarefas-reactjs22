@@ -1,0 +1,109 @@
+.add-task-container {
+    margin: 15px 0;
+    width: 100%;
+    display: flex;
+}
+
+.add-task-container form {
+    width: 100%;
+    display: flex;
+}
+
+.add-task-container input {
+    outline-color: #57c5c7;
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: none;
+    flex: 2;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(105, 105, 105);
+}
+
+.add-task-container button {
+    border-radius: 10px;
+    border: 0;
+    background-color: #57c5c7;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.add-task-container button:hover {
+    cursor: pointer;
+    background-color: #4fb6b8;
+}
+
+.add-task-container button svg {
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+
+@media screen and (max-width: 425px) {
+    .add-task-container input {
+        height: 40px;
+        padding: 0 10px;
+        border-radius: 5px;
+        font-size: .9em;
+    }
+
+    .add-task-container button {
+        margin-left: 10px;
+        padding: 10px;
+    }
+
+    .add-task-container button svg {
+        display: flex;
+        font-size: 1.6em;
+        font-weight: 700;
+    }
+    
+}
+
+
+@media screen and (max-width: 375px) {
+    .add-task-container input {
+        height: 32px;
+        padding: 0 5px;
+        border-radius: 5px;
+        font-size: .9em;
+    }
+
+    .add-task-container button {
+        margin-left: 10px;
+        padding: 5px;
+    }
+
+    .add-task-container button svg {
+        display: flex;
+        font-size: 1.6em;
+        font-weight: 700;
+    }
+ 
+}
+
+@media screen and (max-width: 320px) {
+    .add-task-container input {
+        height: 30px;
+        padding: 0 5px;
+        border-radius: 5px;
+        font-size: .9em;
+    }
+
+    .add-task-container button {
+        margin-left: 5px;
+        padding: 5px;
+    }
+
+    .add-task-container button svg {
+        display: flex;
+        font-size: 1.3em;
+        font-weight: 700;
+    }
+}
+
+

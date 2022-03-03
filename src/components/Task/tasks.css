@@ -1,0 +1,77 @@
+.task-container {
+    background-color: #444;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task-container span {
+    padding-left: 5px;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btns {
+    font-size: 24px;
+    color: #fff;
+    /* color: #57c5c7; */
+    background: transparent;
+    border: 0;
+}
+
+.btns svg {
+    display: flex;
+    align-items: center;
+}
+
+.btns svg:hover {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 425px) {
+    .task-container {
+        margin: 10px 0;
+        padding: 8px;
+    }
+    
+    .task-container span {
+        font-size: 1em;
+    }
+    
+    .btns {
+        font-size: 1.3em;
+       
+    }  
+    
+}
+
+
+@media screen and (max-width: 375px) {
+     
+ 
+}
+
+@media screen and (max-width: 320px) {
+    .task-container {
+        margin: 8px 0;
+        padding: 5px;
+    }
+    
+    .task-container span {
+        font-size: .7em;
+    }
+    
+    .btns {
+        font-size: 1.1em;
+       
+    }   
+    
+}
+
+
